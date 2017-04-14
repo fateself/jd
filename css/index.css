@@ -1,0 +1,477 @@
+@charset "utf-8";
+/*set-nav B*/
+.set-nav {
+    height: 30px;
+    background-color: #F1F1F1;
+    line-height: 30px;
+}
+.set-nav-left {
+    padding: 0 25px 0 10px;
+    position: relative;
+}
+.set-nav-left:hover {
+    background-color: #fff;
+}
+.set-nav-left b,.arrow b {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    display: inline-block;
+    width: 14px;
+    height: 7px;
+    line-height: 15px;
+    overflow:hidden;
+}
+.set-nav-left s,.arrow s {
+    position: absolute;
+    top: -7px;
+    left: 0px;
+    font: 400 13px/15px "consolas"
+}
+.set-nav-right li {
+    float: left;
+    padding: 0 10px;
+}
+li.line {
+    padding: 0;
+    width: 1px;
+    height: 12px;
+    background-color: #DDD;
+    margin-top: 9px;
+}
+li.arrow {
+    position: relative;
+    padding: 0 25px 0 10px;
+}
+li.set-nav-left-phone {
+    position: relative;
+    padding-left: 27px;
+}
+.set-nav-left-phone span {
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    width: 15px;
+    height: 20px;
+    background: url(../images/tel.png) no-repeat 0 0;
+}
+/*set-nav E*/
+
+/*top-banner B*/
+.top-banner {
+    height: 80px;
+    background-color: #33BE30;
+}
+.top-banner-w {
+    position: relative;
+}
+.close-banner {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 19px;
+    height:19px;
+    background: url(../images/close-banner.png) no-repeat 0 0;
+}
+.close-banner:hover {
+    background-position: 0 -19px;
+}
+/*top-banner E*/
+/*search B*/
+.search-logo {
+    float: left;
+    width: 362px;
+    height: 100px;
+}
+.search-logo a {
+    display: inline-block;
+    text-indent: -9999em;
+    width: 270px;
+    height: 60px;
+    margin-top: 20px;
+    background: url(../images/logo.png);
+}
+.search-input {
+    float: left;
+    width: 538px;
+    height: 36px;
+    margin-top: 25px;
+}
+.search-input input[type="text"]{
+    float: left;
+    width: 454px;
+    height: 32px;
+    border: 2px solid #B61D1D;
+    border-right: 0;
+}
+.search-input input[type="button"]{
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: #B61D1D;
+    font:400 16px/36px "微软雅黑";
+    color: #fff;
+    cursor: pointer;
+}
+.search-car {
+    position: relative;
+    float: right;
+    width: 139px;
+    height: 34px;
+    margin: 25px 65px 0 0;
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    text-align: center;
+    line-height: 34px;
+}
+.icon1 {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 17px;
+    height: 13px;
+    background: url(../images/tel.png) no-repeat 0 -59px;
+}
+.icon2 {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font: 13px/36px "SimSun";
+}
+.icon3 {
+    position: absolute;
+    top: -7px;
+    left: 100px;
+    width: 16px;
+    height: 14px;
+    background-color: #C81623;
+    border-radius: 7px 7px 7px 0;
+    line-height: 14px;
+    color: #FFF;
+}
+.search-morelink {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+}
+.search-morelink a {
+    float: left;
+    margin-right: 10px;
+}
+/*search E*/
+/* top-nav B*/
+.top-nav {
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+.top-nav-menu-t {
+    font: 400 15px/44px "microsoft yahei";
+    color: #fff;
+    padding-left: 9px;
+}
+.top-nav-menu-b {
+    width: 210px;
+    height: 466px;
+    background-color: #C81623;
+    position: relative;
+    z-index: 1;
+    margin-top: 2px;
+}
+.top-nav-menu-b li {
+    height: 31px;
+    line-height: 31px;
+    color: #FFF;
+    padding: 0 10px;
+}
+.top-nav-menu-b li:hover {
+    background: #FFF;
+    margin-left: 1px;
+}
+.top-nav-menu-b li a {
+    color: #FFF;
+    font: 400 14px/31px microsoft yahei;
+    float: left;
+}
+.top-nav-menu-b li:hover a {
+    color: #C81623;
+}
+/*鼠标移动li上面改变a标签的颜色*/
+.top-nav-menu-b span {
+    font: 400 12px/31px "consolas";
+    float: right;
+}
+.top-nav-menu {
+    float: left;
+    width: 210px;
+    height: 44px;
+    background-color: #B1191A;
+}
+.top-nav-items {
+    float: left;
+    height: 44px;
+    line-height: 44px;
+}
+.top-nav-items li {
+    float: left;
+    font: 400 16px/44px "microsoft yahei";
+}
+.top-nav-items li a {
+    display: inline-block;
+    padding: 0 20px;
+}
+.top-nav-img {
+    float: right;
+    width: 200px;
+    height: 54px;
+    margin: -10px 50px 0 0 ;
+}
+/* top-nav E*/
+/* fly B*/
+.fly {
+    position: relative;
+}
+.fly a {
+    position: absolute;
+    width: 100%;
+    height: 644px;
+    background: url(../images/sub-banner.jpg) no-repeat center center;
+}
+/* fly E*/
+/* main B*/
+.main-img {
+    width: 730px;
+    height: 454px;
+    background: url(../images/slider.jpg);
+    margin: 12px 0 0 220px;
+    position: relative;
+}
+.page-arrow a {
+    position: absolute;
+    top: 50%;
+    width: 28px;
+    height: 62px;
+    margin-top: -31px;
+    background: rgba(0,0,0,.3);
+    line-height: 62px;
+    text-align: center;
+    color: #fff;
+    font: 400 22px/62px "simsun";
+    cursor: pointer;
+}
+.page-arrow a:hover {
+    background: rgba(0,0,0,.5);
+}
+.page-arrow-left {
+    left: 0;
+    border-radius: 0 7px 7px 0;
+}
+.page-arrow-right {
+    right: 0;
+    border-radius: 7px 0 0 7px ;
+    /*注意：如果一个元素有定位 设置了top以后再设置bottom没有任何意义 ，设置 了left以后再设置right也没有意义 。*/
+}
+ul.main-img-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -66px;
+}
+.main-img-nav li {
+    float: left;
+}
+.main-img-nav li a {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 9px;
+    background-color: rgba(0,0,0,.5);
+    margin: 0 2px;
+    color: #FFF;
+}
+.main-img-nav li a:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+.main-news {
+    width: 250px;
+    height: 455px;
+    margin-top: 12px;
+    overflow: hidden;
+}
+.main-news-n {
+    width: 248px;
+    height: 372px;
+    border: 1px solid #E4E4E4;
+}
+.main-news-n h3 {
+    height: 32px;
+    border-bottom: 1px dotted #E8E8E7;
+    line-height: 32px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.main-news-n h3 a {
+    float: right;
+    font: 12px/32px "consolas";
+}
+.main-news-n .top-ul {
+    margin: 5px 0 0 15px;
+}
+.main-news-n .top-ul li {
+    height: 24px;
+    line-height: 24px;
+}
+.main-news .bottom-ul {
+    width: 260px;
+    background-color: red;
+}
+
+.main-news .bottom-ul li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E4E4E4;
+    margin-left: -1px;
+    position: relative;
+}
+.main-news .bottom-ul a {
+    display: inline-block;
+    width: 62px;
+    height: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+.bottom-ul s {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/fly.png) no-repeat 0 0;
+}
+.main-news-img {
+    width: 250px;
+    height: 75px;
+    margin-top: 5px;
+}
+/* main E*/
+/*end B*/
+.end {
+    height: 164px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.end-left {
+    float: left;
+}
+.end-left a {
+    display: inline-block;
+    width: 210px;
+    height: 151px;
+    background: url(../images/today.png) no-repeat left bottom;
+}
+.end-right {
+    float: right;
+    width: 1000px;
+    height: 164px;
+    position: relative;
+}
+.end-right ul {
+    width: 1005px;
+}
+.end-right li {
+    float: left;
+    margin-right: 1px;
+}
+/*end E*/
+/*foot-banner B*/
+.foot-banner {
+    height: 94px;
+
+    background-color: #F5F5F5;
+    position: relative;
+}
+.foot-banner-w img {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+.img1 {
+    margin-left: -605px;
+}
+.img2 {
+    margin-left: -302px;
+}
+.img4 {
+    margin-left: 302px;
+}
+/*foot-banner E*/
+/*foot-nav B*/
+.foot-nav {
+    height: 202px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.foot-nav dl {
+    float: left;
+    width: 200px;
+}
+.foot-nav dt {
+    margin-top: 15px;
+    height: 36px;
+    line-height: 36px;
+    font:400 16px/34px "microsoft yahei";
+}
+.foot-nav dd {
+    height: 20px;
+    line-height: 20px;
+}
+.foot-nav-map {
+    width: 182px;
+    height: 170px;
+    /*background: url(../images/china.png) no-repeat 0 -130px;*/
+    background: url(../images/china.png) no-repeat left bottom;
+    margin: 15px 40px 0 0;
+    padding: 0 7px 0 14px;
+    font-family: "宋体";
+    position: relative;
+}
+.foot-nav-map h3 {
+    margin-top: 9px;
+    height: 34px;
+    font-size: 16px;
+}
+.foot-nav-map p {
+    line-height: 18px;
+}
+.foot-nav-map a {
+    position: absolute;
+    bottom: 56px;
+    right: 0px;
+}
+/*foot-nav E*/
+/* friend-link B*/
+.friend-link {
+    text-align: center;
+}
+.friend-link-l {
+    margin-top: 22px;
+    height: 26px;
+}
+.friend-link-l span {
+    margin: 0 6px;
+}
+.friend-link-img a {
+    margin: 0 5px;
+}
+/* friend-link E*/
+
+
+.main-news {
+    position: relative;
+}
+.end-left {
+    position: relative;
+}
